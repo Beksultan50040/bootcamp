@@ -1,0 +1,13 @@
+com\bootcamp\model\AuctionAd.class
+com\bootcamp\controller\AccountController.class
+com\bootcamp\model\AuctionAdDTO.class
+com\bootcamp\SwaggerSpringDemoApplication.class
+com\bootcamp\service\AuctionService.class
+com\bootcamp\model\Role.class
+com\bootcamp\repo\UserRepo.class
+com\bootcamp\model\AdStatus.class
+com\bootcamp\controller\RegistrationController.class
+com\bootcamp\model\User.class
+com\bootcamp\repo\AuctionRepo.class
+com\bootcamp\service\UserService.class
+com\bootcamp\config\SecurityConfiguration.class
