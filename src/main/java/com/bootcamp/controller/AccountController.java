@@ -4,6 +4,7 @@ package com.bootcamp.controller;
 import com.bootcamp.model.AdStatus;
 import com.bootcamp.model.AuctionAd;
 import com.bootcamp.service.AuctionService;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/")
+@SecurityRequirement(name = "auction")
 public class AccountController {
 
     @Autowired
